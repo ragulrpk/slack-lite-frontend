@@ -42,7 +42,7 @@ function Login() {
       localStorage.setItem("token", data.token);
 
       // Redirect (next module)
-      //window.location.href = "/dashboard";
+      window.location.href = "/home";
 
     } catch (err) {
       setError(err.message || "Login failed");
